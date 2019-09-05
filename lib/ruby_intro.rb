@@ -1,5 +1,5 @@
 # When done, submit this entire file to the autograder.
-
+#Kimberly Zhu September 2019
 # Part 1
 
 def sum (arr)
