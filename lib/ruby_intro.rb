@@ -53,7 +53,7 @@ end
 
 def starts_with_consonant? s
   temp = s.downcase
-  return temp =~ /\A[^aeiou]/ && temp =~ /\A[a-z]/
+  return temp =~ /\A[^aeiou]/ && temp =~ /\A[a-z]/ #\A is start of string, ^ is negated
 end
 
 def binary_multiple_of_4? s
